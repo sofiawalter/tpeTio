@@ -1,0 +1,332 @@
+
+    header {
+        width: 100%;
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-right: -8px;
+        height: 30%;
+        padding: 10px;
+        text-align: left;
+        background-color: rgb(238, 126, 34);
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .logoMaya {
+        width: 160px;
+        height: 80px;
+        padding: 1px;
+        border-radius: 20%;
+    }
+    
+    .btn_menu {
+        color: white;
+        padding: 15px;
+    }
+    
+    .btn_menu a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .oculto{
+        display:none;
+    }
+
+    .navegadores ul {
+        display: flex;
+        padding:0;
+        list-style-type: none;
+        text-decoration: none;
+        flex-direction: column;
+    }
+
+    .navegadores a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .navegadores a:hover {
+        color: rgb(10, 102, 7);
+    }
+  
+
+    /* Comienza el body, para ello realizamos un div */
+
+    .cajacentral {
+        margin: 10px;
+        display: flex;
+        flex-direction:column;
+        background-color: rgb(247, 239, 239);
+    }
+
+    /* La columna izquierda es un div para la presentación de Regaleria Maya */
+
+    .columnaizq h1 {
+        text-decoration: overline;
+        font-size: 60px;
+        font-style: oblique;
+    }
+
+    p {
+        color: rgb(27, 25, 25);
+        font-size: x-large;
+        font-family: arial;
+    }
+
+    .items {
+        font-size: x-large;
+        font-family: sans-serif;
+        color: rgb(14, 15, 14);
+    }
+
+    .saludo {
+        color: rgb(238, 126, 34);
+        font-family: sans-serif;
+        flex-direction:column;
+    }
+
+    body {
+        background-color: rgb(247, 239, 239)
+    }
+
+    /* Imagenes de Maya es el nombre del div que se encuentra a la derecha dividido en dos partes */
+
+    .imagenesdeMaya{
+        width:100%;
+        display: inline-block;
+        background-color: rgb(247, 239, 239);
+    }
+
+    /* El primer div se llama "imagen ilustrativa", contiene la primer imagen*/
+
+    .imagenIlustrativa {
+        width: 50%;
+        height: 44%;
+        margin-right:80px;
+        background-color: rgb(247, 239, 239);
+    }
+
+    /* El segundo div se llama Imagen Ilustrativa 2, contiene la segunda imagen*/
+
+    .imagenIlustrativa2{
+        width: 50%;
+        height: 44%;
+    }
+
+    /*SEGUNDO HTML*/
+
+
+    /* Comienza el body, para ello realizamos un div llamado caja central 2 */
+
+    .cajacentral2 {
+        width: 96%;
+    }
+
+    h1 {
+        font-style: oblique;
+        text-decoration: underline;
+        text-align: center;
+        color: rgb(238, 126, 34);
+    }
+
+    .tabla{
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border: 1px solid;
+        margin:20px;
+    }
+
+    td {
+        border: 1px solid;
+        font-family: sans-serif;
+        background-color: #F8D4AC;
+    }
+
+    th {
+        border: 1px solid;
+        font-family: arial;
+        background-color: #F8D4AC;
+    }
+
+    .tablasolicitud td {
+        width: 10px;
+        background-color: black;
+        font-family: serif;
+    }
+ 
+    h2 {
+        font-family: sans-serif;
+        color: rgb(238, 126, 34);
+        font-size: xx-large;
+        text-decoration: underline;
+        text-align: justify;
+        margin:20px;
+    }
+
+    
+    *form {
+        width: 30%;
+        padding: 20px;
+        background-color: #F8D4AC;
+        border: 1px solid;
+        margin: 20px;
+    }
+
+    form input {
+        display: block;
+        border: 1px solid;
+    }
+
+    form label {
+        color: black;
+    }
+
+    button{
+      padding:5px;
+    }
+
+    .formtabla{
+        width: 300px;
+        padding: 20px;
+        background-color: #F8D4AC;
+        border: 1px solid;
+        margin: 20px; 
+    }
+
+    .formtabla input{
+        width:100%;
+    }
+
+    .botonestabla{
+        display: flex;
+        flex-direction: row;
+        margin-top:10px;
+       padding:5px;
+    }
+        
+    /*TERCER HTML*/
+
+    /*Caja central 3 hace referencia al body. Es un div realizado para poner información sobre las ofertas de la Regaleria Maya */
+
+    .cajacentral3 {
+    display: flex; 
+    flex-direction:column;
+    justify-content: space-between;
+    margin: 10px;
+    }
+
+    h3 {
+        font-family: sans-serif;
+        color: rgb(238, 126, 34);
+        font-size: xx-large;
+        text-decoration: underline;
+        text-align: justify;
+    }
+
+    h4 {
+        font-family: sans-serif;
+        color: rgb(238, 126, 34);
+        font-size: xx-large;
+        text-decoration: underline;
+        text-align: justify;
+    }
+
+    .imagenofertas img{
+        width:200px;
+        height: 200px;
+        margin-top:40px;
+        margin-left:60px;
+        flex-direction:column;  
+    }
+
+    .promociones img{
+        max-width:100%;
+    }
+
+    footer img {
+        width: 50px;
+        height: 50px;
+        border-radius: 20%;
+        
+    }
+
+    footer p {
+        font-family: cursive;
+        font-style: oblique;
+        text-align: center;
+        margin-top: -15px;
+        margin-left: -15px;
+        padding: 10px;
+        
+    }
+
+    footer {
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        background-color:  rgb(238, 126, 34);
+        display: inline-block;
+        margin-bottom: -8px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    
+  
+    .show{
+        display: block;
+        border:4px solid black;
+    }
+    @media only screen and (min-width: 768px){ 
+    
+        .logo{
+            flex-direction: row;
+        }
+
+        .navegadores ul {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .navegadores ul li{
+            justify-content: space-around;
+            padding:30px; 
+        }
+
+        .btn_menu {
+            display: none;
+         }
+         
+        .cajacentral{
+            flex-direction: row;
+        }
+
+        .imagenesdeMaya{
+            margin-top:180px;
+            margin-left:50px;
+        }
+
+        .cajacentral3 { 
+            flex-direction:row;  
+        }
+       
+        .imagenofertas img{
+            flex-direction:column;
+        }   
+
+        .tabla{
+            overflow-x: unset;
+        }
+ }
+ 
+       
+    
